@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 
 namespace TextReader
 {
@@ -42,7 +43,11 @@ namespace TextReader
         {
             using (StreamReader reader = new StreamReader(filename))
             {
-                string[] words = reader.ReadToEnd().Split(' ');
+                // use regex to remove punctuation from file as we only need words.
+                Regex rgx = new Regex("[^a-zA-Z0-9 ]");
+                string result = reader.ReadToEnd();
+                result = rgx.Replace(result, "");
+                string[] words = result.Split(' ');
                 reader.Close();
 
                 // leverage Dictionary for handling of key uniqueness and lookup.
@@ -50,7 +55,11 @@ namespace TextReader
 
                 foreach (string word in words)
                 {
-                    wordCount.SafeIncrement(word);
+                    if (word != string.Empty)
+                    {
+                        // Not entirely clear from question how case sensitivity should be handled. Is "The" equivalent to "the"? For now, have assumed so.
+                        wordCount.SafeIncrement(word.ToLower());
+                    }   
                 }
 
                 // Order dictionary and convert to KeyValuePair as Dictionaries are not explicitly ordered.

@@ -30,6 +30,7 @@ namespace TextReaderTester
             }
 
             // As we have this specific file, we can verify this example explicitly.
+            // Verified with notepad++ - Mark, Match whole word only.
             Assert.AreEqual("the", orderdWordCount[0].Key);
             Assert.AreEqual("of", orderdWordCount[1].Key);
             Assert.AreEqual("and", orderdWordCount[2].Key);
@@ -37,19 +38,19 @@ namespace TextReaderTester
             Assert.AreEqual("in", orderdWordCount[4].Key);
             Assert.AreEqual("a", orderdWordCount[5].Key);
             Assert.AreEqual("that", orderdWordCount[6].Key);
-            Assert.AreEqual("is", orderdWordCount[7].Key);
-            Assert.AreEqual("his", orderdWordCount[8].Key);
-            Assert.AreEqual("will", orderdWordCount[9].Key);
-            Assert.AreEqual(3758, orderdWordCount[0].Value);
-            Assert.AreEqual(2168, orderdWordCount[1].Value);
-            Assert.AreEqual(1281, orderdWordCount[2].Value);
-            Assert.AreEqual(1093, orderdWordCount[3].Value);
-            Assert.AreEqual(750, orderdWordCount[4].Value);
-            Assert.AreEqual(738, orderdWordCount[5].Value);
-            Assert.AreEqual(487, orderdWordCount[6].Value);
-            Assert.AreEqual(406, orderdWordCount[7].Value);
-            Assert.AreEqual(397, orderdWordCount[8].Value);
-            Assert.AreEqual(394, orderdWordCount[9].Value);
+            Assert.AreEqual("his", orderdWordCount[7].Key);
+            Assert.AreEqual("is", orderdWordCount[8].Key);
+            Assert.AreEqual("as", orderdWordCount[9].Key);
+            Assert.AreEqual(4225, orderdWordCount[0].Value);
+            Assert.AreEqual(2278, orderdWordCount[1].Value);
+            Assert.AreEqual(1387, orderdWordCount[2].Value);
+            Assert.AreEqual(1130, orderdWordCount[3].Value);
+            Assert.AreEqual(885, orderdWordCount[4].Value);
+            Assert.AreEqual(801, orderdWordCount[5].Value);
+            Assert.AreEqual(525, orderdWordCount[6].Value);
+            Assert.AreEqual(461, orderdWordCount[7].Value);
+            Assert.AreEqual(429, orderdWordCount[8].Value);
+            Assert.AreEqual(427, orderdWordCount[9].Value);
         }
 
         [TestMethod]

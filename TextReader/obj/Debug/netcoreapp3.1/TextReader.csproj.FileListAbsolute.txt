@@ -1,0 +1,13 @@
+c:\dev\projects\alpha\TextReader\TextReader\bin\Debug\netcoreapp3.1\TextReader.exe
+c:\dev\projects\alpha\TextReader\TextReader\bin\Debug\netcoreapp3.1\TextReader.deps.json
+c:\dev\projects\alpha\TextReader\TextReader\bin\Debug\netcoreapp3.1\TextReader.runtimeconfig.json
+c:\dev\projects\alpha\TextReader\TextReader\bin\Debug\netcoreapp3.1\TextReader.runtimeconfig.dev.json
+c:\dev\projects\alpha\TextReader\TextReader\bin\Debug\netcoreapp3.1\TextReader.dll
+c:\dev\projects\alpha\TextReader\TextReader\bin\Debug\netcoreapp3.1\TextReader.pdb
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.csprojAssemblyReference.cache
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.AssemblyInfoInputs.cache
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.AssemblyInfo.cs
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.csproj.CoreCompileInputs.cache
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.dll
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.pdb
+c:\dev\projects\alpha\TextReader\TextReader\obj\Debug\netcoreapp3.1\TextReader.genruntimeconfig.cache
